@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="header.html">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/jianjie.css">
+    <link rel="stylesheet" href="css/work.css">
+    <link rel="stylesheet" href="css/team.css">
+    <link rel="stylesheet" href="css/partner.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/address.css">
+    <link rel="stylesheet" href="css/bottom.css">
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/banner.js"></script>
+    <script>
+        $(function(){
+            $("#header").load("header.html")
+        })
+    </script>
+    <style type="text/css">
+        html,body{margin:0;padding:0;}
+        .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+        .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+    </style>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+</head>
+
+<body>
+    <div class="full">
+        <div id="header" style="height: 120px;background: url(img/header_bg.jpg) no-repeat;background-size: 120% 100%;"></div>
+        <div class="banner_wrap">
+            <div class="banner">
+                <div class="banner1">
+                    <div class="pic1_banner1"></div>
+                    <div class="pic2_banner1"></div>
+                    <div class="pic3_banner1"></div>
+                </div>
+            </div>
+            <div class="banner">
+                <div class="banner2">
+                    <div class="pic1_banner2"></div>
+                    <div class="pic2_banner2"></div>
+                    <div class="pic3_banner2"></div>
+                </div>
+            </div>
+            <div class="banner">
+                <div class="banner3">
+                    <div class="pic1_banner3"></div>
+                    <div class="pic2_banner3"></div>
+                    <div class="pic3_banner3"></div>
+                </div>
+            </div>
+            <ul class="btnList">
+                <li class="prev"></li>
+                <li></li>
+                <li></li>
+                <li class="rotation">
+                    <em class="blue_dotted"></em>
+                    <em></em>
+                    <em></em>
+                </li>
+                <li></li>
+                <li></li>
+                <li class="next"></li>
+            </ul>
+        </div>
+        <div class="main_wrap">
+            <div class="main_Product">
+                    <div class="main_top">
+                        <div class="goOn"></div>
+                        <p class="big_txt">主要产品</p>
+                        <p class="small_txt">O u r&nbsp;&nbsp;&nbsp;W o r k s</p>
+                        <div class="three_points"></div>
+                    </div>
+                    <div class="main_content">
+                        <div class="content_list">
+                        <div class="mover">
+                            <em class="big"></em>
+                            <em class="small"></em>
+                            <em class="small"></em>
+                            <em class="small"></em>
+                            <em class="small"></em>
+                            <em class="small"></em>
+                        </div>
+                    </div>
+                    <div class="content_wrap">
+                        <div class="qiehuan">
+                            <ul>
+                                <li class="left"></li>
+                                <li class="mDashed"></li>
+                                <li class="right"></li>
+                            </ul>
+                        </div>
+                        <ul class="content_qiehuan">
+                            <li >
+                                    <div  class="chanpin_image01"><img src="img/chanpin_image01.jpg" alt=""></div>
+                                    <div class="chanpin_jieshao">
+                                    <p class="jieshao_title">小鸟掌学</p>
+                                    <div class="penLine">
+                                        <i class="pen_line"></i>
+                                        <i class="pen1"></i>
+                                    </div>
+                                    <div class="zhuyao">
+                                        <div class="bird"></div>
+                                        <p>
+                                            <span>概述</span>
+                                            小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台，受到社会的密切关注与欢迎。卓新思创公司负责小鸟掌学的运营、推广和研发等工作。
+                                        </p>
+                                    </div>
+                                    <div class="zongzhi">
+                                        <p>我们的愿景：成为中国最强、最大的中小微企业定制在线学习服务提供商！</p>
+                                        <p>我们做的是“新学习、新媒体”！</p>
+                                        <p>帮助企业建立自己的企业学校，实现：全民全学、全民全校、全民全智（比拼式学习）！</p>
+                                    </div>
+                                        <div class="logo_xue">
+                                            <i class="zuoyin"></i>
+                                            <span>学我所用、学以致用</span>
+                                            <i class="youyin"></i>
+                                        </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div  class="chanpin_image01"><img src="img/chanpin_image02.jpg" alt=""></div>
+                                <div class="chanpin_jieshao">
+                                    <p class="jieshao_title">小鸟掌学</p>
+                                    <div class="penLine">
+                                        <i class="pen_line"></i>
+                                        <i class="pen1"></i>
+                                    </div>
+                                    <div class="neirong1">
+                                        <p>“小鸟掌学”云平台是一套完整的专家知识、学习管理、监督考核系统。首先根据企业和员工的特性，抓去学习需求“平台学习库、行业学习库和企业内训库”中调出教学资源，按照学习计划“推送”任务给每一位员工，并对学习过程进行监管，对学习效果进行评估，根据学习情况调整学习计划，不断优化员工的职业生涯。</p>
+                                    </div>
+                                    <div class="logo_xue">
+                                        <i class="zuoyin"></i>
+                                        <span>学我所用、学以致用</span>
+                                        <i class="youyin"></i>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div  class="chanpin_image01"><img src="img/chanpin_image03.jpg" alt=""></div>
+                                <div class="chanpin_jieshao">
+                                    <p class="jieshao_title">小鸟掌学对企业的价值</p>
+                                    <div class="penLine">
+                                        <i class="pen_line"></i>
+                                        <i class="pen1"></i>
+                                    </div>
+                                    <div class="neirong1">
+                                        <p>1）帮助企业转变为学习型组织，促进全员持续学习；</p>
+                                        <p>2）加速企业内部知识的传播，提高管理、操作和经验技巧的传承；</p>
+                                        <p>3）营造企业比拼式学习的氛围，挖掘实战精华；</p>
+                                    </div>
+                                    <div class="neirong2">
+                                        <p>4）降低企业培训的时间和金钱成本，提高培训效率和培训质量；</p>
+                                        <p>5）增加凝聚力，提高员工的忠诚度，做到“上下同欲”；</p>
+                                        <p>6）增强企业供应商、经销商的知识技能的提高，形成“供应链学习模式”；</p>
+                                    </div>
+                                    </div>
+                            </li>
+                            <li>
+                                <div  class="chanpin_image01"><img src="img/chanpin_image04.jpg" alt=""></div>
+                                <div class="chanpin_jieshao">
+                                    <p class="jieshao_title">“小鸟掌学”云平台</p>
+                                    <div class="penLine">
+                                        <i class="pen_line"></i>
+                                        <i class="pen1"></i>
+                                    </div>
+                                    <div class="neirong1">
+                                        <p>“小鸟掌学”云平台是一套完整的专家知识、学习管理、监督考核系统。首先根据企业和员工的特性，抓去学习需求“平台学习库、行业学习库和企业内训库”中调出教学资源，按照学习计划“推送”任务给每一位员工，并对学习过程进行监管，对学习效果进行评估，根据学习情况调整学习计划，不断优化员工的职业生涯。</p>
+                                    </div>
+                                    <div class="neirong2">
+                                        <p>“小鸟掌学”主要基于智能手机平台进行学习。针对性、趣味性、创新性的学习方式有助于员工建立学习兴趣，讲学习与趣味相结合，提高学习吸收率。提高员工技能，增加企业效率。</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div  class="chanpin_image01"><img src="img/chanpin_image05.jpg" alt=""></div>
+                                <div class="chanpin_jieshao">
+                                    <p class="jieshao_title">“小鸟掌学”云平台</p>
+                                    <div class="penLine">
+                                        <i class="pen_line"></i>
+                                        <i class="pen1"></i>
+                                    </div>
+                                    <div class="neirong1">
+                                        <p>“小鸟掌学”云平台是企业战略变革的工具</p>
+                                        <p>“小鸟掌学”云平台是企业文化的重要组成部分</p>
+                                        <p>“小鸟掌学”云平台是企业培训的重要手段和实施保障机制</p>
+                                    </div>
+                                    <div class="neirong2">
+                                        <p>“小鸟掌学”云平台是企业上下游意识统一的桥梁</p>
+                                        <p>“小鸟掌学”云平台是企业经验分享的平台</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div  class="chanpin_image01"><img src="img/chanpin_image06.jpg" alt=""></div>
+                                <div class="chanpin_jieshao">
+                                    <p class="jieshao_title">“小鸟掌学”云平台</p>
+                                    <div class="penLine">
+                                        <i class="pen_line"></i>
+                                        <i class="pen1"></i>
+                                    </div>
+                                    <div class="neirong1">
+                                        <p>“小鸟掌学”云平台是一种正规化教学管理机制，但它突破了时间、地域、成本、固定性的限制（绝非在线浏览网页，看电子书籍和一些音视频上）。“小鸟掌学”改变了企业现有培训的“双高困局”（高成本、高误工），实现了双低学习模式（低成本、低误工）。</p>
+                                    </div>
+                                    <div class="neirong2">
+                                        <p>当今，科学技术迅猛发展，社会文化不断进步，“终身教育，终身学习”将被越来越多的人所认识。面对未来，小鸟掌学将不断努力，以一流的运营和服务，将成为企业首选的、长期的、可信赖的学习资源提供商、运营服务提供商，为社会各行各业的发展和国家经济实力的增强，做出新的贡献。</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jianjie_wrap">
+            <div class="jianjie">
+                <div class="jianjie_top">
+                    <p class="big_txt">公司简介</p>
+                    <p class="small_txt">A b o u t&nbsp;&nbsp;&nbsp;C o m p a n y</p>
+                    <div class="three_points"></div>
+                </div>
+                <div class="jianjie_content">
+                    <div class="gscontent_list">
+                        <div class="gsmover">
+                            <em class="gsbig"></em>
+                            <em class="gssmall"></em>
+                            <em class="gssmall"></em>
+                            <em class="gssmall"></em>
+                            <em class="gssmall"></em>
+                            <em class="gssmall"></em>
+                        </div>
+                    </div>
+                    <div class="gscontent_wrap">
+                        <div class="gsqiehuan">
+                            <ul>
+                                <li class="gsleft"></li>
+                                <li class="gsmDashed"></li>
+                                <li class="gsright"></li>
+                            </ul>
+                        </div>
+                        <ul class="gscontent_qiehuan">
+                            <li >
+                                <div  class="gs_image01"><img src="img/jianjie_image01.jpg" alt=""></div>
+                                <div class="gongsi_jieshao">
+                                    <p class="gsjieshao_title">卓新思创有限公司</p>
+                                    <div class="gspenLine">
+                                        <i class="gspen_line"></i>
+                                        <i class="gspen1"></i>
+                                    </div>
+                                    <div class="gszhuyao">
+                                        <div class="bird"></div>
+                                        <p>
+                                            <span>概述</span>
+                                            小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台，受到社会的密切关注与欢迎。卓新思创公司负责小鸟掌学的运营、推广和研发等工作。
+                                        </p>
+                                    </div>
+                                    <div class="gszongzhi">
+                                        <p>我们的愿景：成为中国最强、最大的中小微企业定制在线学习服务提供商！</p>
+                                        <p>我们做的是“新学习、新媒体”！</p>
+                                        <p>帮助企业建立自己的企业学校，实现：全民全学、全民全校、全民全智（比拼式学习）！</p>
+                                    </div>
+                                    <div class="gslogo_xue">
+                                        <i class="gszuoyin"></i>
+                                        <span>学我所用、学以致用</span>
+                                        <i class="gsyouyin"></i>
+                                    </div>
+                                </div>
+                            </li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="work_wrap">
+            <div class="work">
+                <div class="work_top">
+                    <div class="mouse01"></div>
+                    <p class="big_txt">业务范围</p>
+                    <p class="small_txt">B u s i n e s s&nbsp;&nbsp;&nbsp;S c o p e</p>
+                    <div class="three_points"></div>
+                </div>
+                <div class="work_main" id="work_main">
+                    <div class="work_child1 workChild">
+                        <div class="work_nav1">
+                            <span>01</span>
+                            <div class="l_title">
+                                <p>企业培训平台</p>
+                                <p>Enterprise training platform</p>
+                            </div>
+                            <i class="work_icon1 btn1"></i>
+                            <div class="r_nav">
+                                <p>我们的愿景：成为中国最强、最大的中小微企业定制在线学习服务提供商！</p>
+                                <p>我们做的是“新学习、新媒体”！</p>
+                            </div>
+                            <em class="caidan"></em>
+                        </div>
+                    </div>
+                    <div class="work_content">
+                        <p>
+                            “小鸟掌学”云平台是一套完整的专家知识、学习管理、监督考核系统。首先根据企业和员工的特性，抓取学习需求，然后从“平台学习库、行业学习库和企业内训库”中调出教学资源，按学习计划“推送”任务给每一位员工，并对学习过程进行监管，对学习效果进行评估，根据学习情况调整学习计划，不断优化员工的职业生涯。
+                        </p>
+                        <p>
+                            “小鸟掌学”主要基于智能手机平台进行学习。针对性、趣味性、创新性的学习方式有助于员工建立学习兴趣，将学习与趣味相结合，提高学习吸收率。提高员工技能，增加企业效益。
+                        </p>
+                    </div>
+                    <h1 class="dashedBorder"></h1>
+                    <div class="work_child2 workChild">
+                        <div class="work_nav2">
+                            <span>02</span>
+                            <div class="l_title">
+                                <p>小鸟掌学云服务</p>
+                                <p>cloud services</p>
+                            </div>
+                            <i class="work_icon2 btn1"></i>
+                            <div class="r_nav">
+                                <p>我们的愿景：成为中国最强、最大的中小微企业定制在线学习服务提供商！</p>
+                                <p> 我们做的是“新学习、新媒体”！</p>
+                            </div>
+                            <em class="caidan">
+
+                            </em>
+                        </div>
+                    </div>
+                    <div class="work_content">
+                        <p>
+                            “小鸟掌学”云平台是一套完整的专家知识、学习管理、监督考核系统。首先根据企业和员工的特性，抓取学习需求，然后从“平台学习库、行业学习库和企业内训库”中调出教学资源，按学习计划“推送”任务给每一位员工，并对学习过程进行监管，对学习效果进行评估，根据学习情况调整学习计划，不断优化员工的职业生涯。
+                        </p>
+                        <p >
+                            “小鸟掌学”主要基于智能手机平台进行学习。针对性、趣味性、创新性的学习方式有助于员工建立学习兴趣，将学习与趣味相结合，提高学习吸收率。提高员工技能，增加企业效益。
+                        </p>
+                    </div>
+                    <h1 class="dashedBorder"></h1>
+                    <div class="work_child3 workChild">
+                        <div class="work_nav3">
+                            <span>03</span>
+                            <div class="l_title">
+                                <p>企业培训课程内容提供</p>
+                                <p> Enterprise training course</p>
+                            </div>
+                            <i class="work_icon3 btn1"></i>
+                            <div class="r_nav">
+                                <p>我们的愿景：成为中国最强、最大的中小微企业定制在线学习服务提供商！</p>
+                                <p>我们做的是“新学习、新媒体”！</p>
+                            </div>
+                            <em class="caidan"></em>
+                        </div>
+                    </div>
+                    <div class="work_content" style="">
+                        <p>
+                            “小鸟掌学”云平台是一套完整的专家知识、学习管理、监督考核系统。首先根据企业和员工的特性，抓取学习需求，然后从“平台学习库、行业学习库和企业内训库”中调出教学资源，按学习计划“推送”任务给每一位员工，并对学习过程进行监管，对学习效果进行评估，根据学习情况调整学习计划，不断优化员工的职业生涯。
+                        </p>
+                        <p>
+                            “小鸟掌学”主要基于智能手机平台进行学习。针对性、趣味性、创新性的学习方式有助于员工建立学习兴趣，将学习与趣味相结合，提高学习吸收率。提高员工技能，增加企业效益。
+                        </p>
+                    </div>
+                    <h1 class="dashedBorder"></h1>
+                </div>
+
+        </div>
+        </div>
+        <div class="team_wrap">
+            <div class="team_body">
+                <div class="team_top">
+                    <div class="mouse01"></div>
+                    <p class="big_txt">团队介绍</p>
+                    <p class="small_txt">O u r&nbsp;&nbsp;&nbsp;T e a m</p>
+                    <div class="three_points"></div>
+                </div>
+                <div class="team_neirong">
+                    <ul class="lunbo">
+                        <li>
+                            <div class="team_content">
+                                <div class="team_left">
+                                    <div class="people_jianjie">
+                                        <div class="teamer1">
+                                            <h3 class="add_people"></h3>
+                                        </div>
+                                        <p>郭翔</p>
+                                        <p class="people_jianjie_p2">合伙人</p>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <div class="email">
+                                        <strong class="email_icon"></strong>
+                                        <span>发送邮件</span>
+                                    </div>
+                                    <p class="xiangxi">暂未更新，敬请期待</p>
+                                    <div class="lianxifangshi">
+                                        <strong class="lianxi_icon1"></strong>
+                                        <strong class="lianxi_icon2"></strong>
+                                        <strong class="lianxi_icon3"></strong>
+                                        <strong class="lianxi_icon4"></strong>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                            <div class="team_content">
+                                <div class="team_left">
+                                    <div class="people_jianjie">
+                                        <div class="teamer1">
+                                            <h3 class="add_people"></h3>
+                                        </div>
+                                        <p>李威1</p>
+                                        <p class="people_jianjie_p2">合伙人</p>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <p class="xiangxi">暂未更新，敬请期待</p>
+                                    <div class="lianxifangshi">
+                                        <strong class="lianxi_icon1"></strong>
+                                        <strong class="lianxi_icon2"></strong>
+                                        <strong class="lianxi_icon3"></strong>
+                                        <strong class="lianxi_icon4"></strong>
+                                    </div>
+                                    <div class="email">
+                                        <strong class="email_icon"></strong>
+                                        <span>发送邮件</span>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </li>
+                        <li>
+                            <div class="team_content">
+                                <div class="team_left">
+                                    <div class="people_jianjie">
+                                        <div class="teamer1">
+                                            <h3 class="add_people"></h3>
+                                        </div>
+                                        <p>郭翔</p>
+                                        <p class="people_jianjie_p2">合伙人</p>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <div class="email">
+                                        <strong class="email_icon"></strong>
+                                        <span>发送邮件</span>
+                                    </div>
+                                    <p class="xiangxi">暂未更新，敬请期待</p>
+                                    <div class="lianxifangshi">
+                                        <strong class="lianxi_icon1"></strong>
+                                        <strong class="lianxi_icon2"></strong>
+                                        <strong class="lianxi_icon3"></strong>
+                                        <strong class="lianxi_icon4"></strong>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                            <div class="team_content">
+                                <div class="team_left">
+                                    <div class="people_jianjie">
+                                        <div class="teamer1">
+                                            <h3 class="add_people"></h3>
+                                        </div>
+                                        <p>李威2</p>
+                                        <p class="people_jianjie_p2">合伙人</p>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <p class="xiangxi">暂未更新，敬请期待</p>
+                                    <div class="lianxifangshi">
+                                        <strong class="lianxi_icon1"></strong>
+                                        <strong class="lianxi_icon2"></strong>
+                                        <strong class="lianxi_icon3"></strong>
+                                        <strong class="lianxi_icon4"></strong>
+                                    </div>
+                                    <div class="email">
+                                        <strong class="email_icon"></strong>
+                                        <span>发送邮件</span>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </li>
+                        <li>
+                            <div class="team_content">
+                                <div class="team_left">
+                                    <div class="people_jianjie">
+                                        <div class="teamer1">
+                                            <h3 class="add_people"></h3>
+                                        </div>
+                                        <p>郭翔</p>
+                                        <p class="people_jianjie_p2">合伙人</p>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <div class="email">
+                                        <strong class="email_icon"></strong>
+                                        <span>发送邮件</span>
+                                    </div>
+                                    <p class="xiangxi">暂未更新，敬请期待</p>
+                                    <div class="lianxifangshi">
+                                        <strong class="lianxi_icon1"></strong>
+                                        <strong class="lianxi_icon2"></strong>
+                                        <strong class="lianxi_icon3"></strong>
+                                        <strong class="lianxi_icon4"></strong>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                            <div class="team_content">
+                                <div class="team_left">
+                                    <div class="people_jianjie">
+                                        <div class="teamer1">
+                                            <h3 class="add_people"></h3>
+                                        </div>
+                                        <p>李威3</p>
+                                        <p class="people_jianjie_p2">合伙人</p>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <p class="xiangxi">暂未更新，敬请期待</p>
+                                    <div class="lianxifangshi">
+                                        <strong class="lianxi_icon1"></strong>
+                                        <strong class="lianxi_icon2"></strong>
+                                        <strong class="lianxi_icon3"></strong>
+                                        <strong class="lianxi_icon4"></strong>
+                                    </div>
+                                    <div class="email">
+                                        <strong class="email_icon"></strong>
+                                        <span>发送邮件</span>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </li>
+                        <li>
+                            <div class="team_content">
+                                <div class="team_left">
+                                    <div class="people_jianjie">
+                                        <div class="teamer1">
+                                            <h3 class="add_people"></h3>
+                                        </div>
+                                        <p>郭翔</p>
+                                        <p class="people_jianjie_p2">合伙人</p>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <div class="email">
+                                        <strong class="email_icon"></strong>
+                                        <span>发送邮件</span>
+                                    </div>
+                                    <p class="xiangxi">暂未更新，敬请期待</p>
+                                    <div class="lianxifangshi">
+                                        <strong class="lianxi_icon1"></strong>
+                                        <strong class="lianxi_icon2"></strong>
+                                        <strong class="lianxi_icon3"></strong>
+                                        <strong class="lianxi_icon4"></strong>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                            <div class="team_content">
+                                <div class="team_left">
+                                    <div class="people_jianjie">
+                                        <div class="teamer1">
+                                            <h3 class="add_people"></h3>
+                                        </div>
+                                        <p>李威4</p>
+                                        <p class="people_jianjie_p2">合伙人</p>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <p class="xiangxi">暂未更新，敬请期待</p>
+                                    <div class="lianxifangshi">
+                                        <strong class="lianxi_icon1"></strong>
+                                        <strong class="lianxi_icon2"></strong>
+                                        <strong class="lianxi_icon3"></strong>
+                                        <strong class="lianxi_icon4"></strong>
+                                    </div>
+                                    <div class="email">
+                                        <strong class="email_icon"></strong>
+                                        <span>发送邮件</span>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </li>
+                        <li>
+                            <div class="team_content">
+                                <div class="team_left">
+                                    <div class="people_jianjie">
+                                        <div class="teamer1">
+                                            <h3 class="add_people"></h3>
+                                        </div>
+                                        <p>郭翔</p>
+                                        <p class="people_jianjie_p2">合伙人</p>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <div class="email">
+                                        <strong class="email_icon"></strong>
+                                        <span>发送邮件</span>
+                                    </div>
+                                    <p class="xiangxi">暂未更新，敬请期待</p>
+                                    <div class="lianxifangshi">
+                                        <strong class="lianxi_icon1"></strong>
+                                        <strong class="lianxi_icon2"></strong>
+                                        <strong class="lianxi_icon3"></strong>
+                                        <strong class="lianxi_icon4"></strong>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                            <div class="team_content">
+                                <div class="team_left">
+                                    <div class="people_jianjie">
+                                        <div class="teamer1">
+                                            <h3 class="add_people"></h3>
+                                        </div>
+                                        <p>李威5</p>
+                                        <p class="people_jianjie_p2">合伙人</p>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <p class="xiangxi">暂未更新，敬请期待</p>
+                                    <div class="lianxifangshi">
+                                        <strong class="lianxi_icon1"></strong>
+                                        <strong class="lianxi_icon2"></strong>
+                                        <strong class="lianxi_icon3"></strong>
+                                        <strong class="lianxi_icon4"></strong>
+                                    </div>
+                                    <div class="email">
+                                        <strong class="email_icon"></strong>
+                                        <span>发送邮件</span>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </li>
+                        <li>
+                            <div class="team_content">
+                                <div class="team_left">
+                                    <div class="people_jianjie">
+                                        <div class="teamer1">
+                                            <h3 class="add_people"></h3>
+                                        </div>
+                                        <p>郭翔</p>
+                                        <p class="people_jianjie_p2">合伙人</p>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <div class="email">
+                                        <strong class="email_icon"></strong>
+                                        <span>发送邮件</span>
+                                    </div>
+                                    <p class="xiangxi">暂未更新，敬请期待</p>
+                                    <div class="lianxifangshi">
+                                        <strong class="lianxi_icon1"></strong>
+                                        <strong class="lianxi_icon2"></strong>
+                                        <strong class="lianxi_icon3"></strong>
+                                        <strong class="lianxi_icon4"></strong>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                            <div class="team_content">
+                                <div class="team_left">
+                                    <div class="people_jianjie">
+                                        <div class="teamer1">
+                                            <h3 class="add_people"></h3>
+                                        </div>
+                                        <p>李威6</p>
+                                        <p class="people_jianjie_p2">合伙人</p>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <p class="xiangxi">暂未更新，敬请期待</p>
+                                    <div class="lianxifangshi">
+                                        <strong class="lianxi_icon1"></strong>
+                                        <strong class="lianxi_icon2"></strong>
+                                        <strong class="lianxi_icon3"></strong>
+                                        <strong class="lianxi_icon4"></strong>
+                                    </div>
+                                    <div class="email">
+                                        <strong class="email_icon"></strong>
+                                        <span>发送邮件</span>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </li>
+                        <div class="clear"></div>
+                    </ul>
+                </div>
+
+
+                    <ul class="team_btnList">
+                        <li class="team_prev"></li>
+                        <li></li>
+                        <li></li>
+                        <li class="team_rotation">
+                            <em class="team_blue_dotted"></em>
+                            <em></em>
+                            <em></em>
+                            <em></em>
+                            <em></em>
+                        </li>
+                        <li></li>
+                        <li></li>
+                        <li class="team_next"></li>
+                    </ul>
+                <!--<h2></h2>-->
+            </div>
+        </div>
+        <div class="partner_wrap">
+            <div class="partner">
+                <div class="partner_top">
+                    <h2></h2>
+                    <p class="big_txt">合作机构</p>
+                    <p class="small_txt">O u r&nbsp;&nbsp;&nbsp;P a r t n e r s</p>
+                    <div class="three_points"></div>
+                </div>
+                <div class="partner_content">
+                    <div class="partners">
+                        <h3>合作机构</h3>
+                        <h4>O u r&nbsp; P a r t n e r s</h4>
+                        <div class="partners_nav">
+                            <ul>
+                                <li class="PL1"></li>
+                                <li class="PL2"></li>
+                                <li class="PL3"></li>
+                                <li class="PL4"></li>
+                                <li class="PL5"></li>
+                                <li class="PL6"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="users">
+                        <h3>用户</h3>
+                        <h4>3000+</h4>
+                        <div class="users_nav">
+                            <ul>
+                                <li class="UL1"></li>
+                                <li class="UL2"></li>
+                                <li class="UL3"></li>
+                                <li class="UL4"></li>
+                                <li class="UL5"></li>
+                                <li class="UL6"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <h6></h6>
+            </div>
+        </div>
+        <div class="contact_wrap">
+            <div class="contact">
+                <div class="contact_top">
+                    <p class="big_txt">联系我们</p>
+                    <p class="small_txt">C o n t a c t&nbsp;&nbsp;&nbsp;U s</p>
+                    <div class="three_points"></div>
+                </div>
+                <div class="contact_content">
+                    <div class="contact_content_">
+                        <ul>
+                            <li class="">
+                                <i class="p-nane"></i><input type="text" value="*名字" onfocus="javascript:if(this.value=='请输入内容')this.value='';">
+                            </li>
+                            <li class="p-email">
+                                <i></i><input type="text" value="*邮箱" onfocus="javascript:if(this.value=='请输入内容')this.value='';">
+                            </li>
+                            <li class="p-phone">
+                                <i></i><input type="text">
+                            </li>
+                        </ul>
+                        <div class="liuyan_wrap">
+                                <i></i><textarea name="" id="" cols="30" rows="10"></textarea>
+                        </div>
+                        <p class="text1">
+                            <span>*</span>亲，留言的时候，要请留下你的姓名和联系方式哦~
+                        </p>
+                        <p class="text2">谢谢你的留言，我们将及时回复！</p>
+                        <div class="send">
+                            <i></i><span>发送留言</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="address_wrap">
+           <div class="address">
+               <div>
+                   <ul>
+                       <li class="ad">
+                           <i></i>
+                           <div>
+                               <h1>地址</h1>
+                               <h4></h4>
+                               <p>
+                                   <span>北京市昌平区站前东街2号</span>
+                                   <span>回龙观田园风光综合商业楼3层</span>
+                                   <span>邮编：100081</span>
+                               </p>
+                           </div>
+                       </li>
+                       <li class="telephone">
+                           <i></i>
+                           <div>
+                               <h1>电话</h1>
+                               <h4></h4>
+                               <p>
+                                   <span></span>
+                                   <span>总机:028-8888888</span>
+                                   <span></span>
+                               </p>
+                           </div>
+                       </li>
+                       <li class="internet" style="margin-right: 0;">
+                           <i></i>
+                           <div>
+                               <h1>网路途径</h1>
+                               <h4></h4>
+                               <p>
+                                   <span>邮箱：cp@feicuiedu.com</span>
+                                   <span>微博：aaaaaaa_sina</span>
+                                   <span>微信：ccccccc_weixin</span>
+                               </p>
+                           </div>
+                       </li>
+                       <ol class="clear"></ol>
+                   </ul>
+               </div>
+           </div>
+            <div class="map">
+                <h2></h2>
+                <div style="width:1100px;height:660px;margin: 0 auto;border:#ccc solid 1px;" id="dituContent"></div>
+                <div class="map_di">
+                    <h5></h5>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="bottom_wrap">
+            <div class="bottom" >
+                <ul>
+                    <li class="dou"></li>
+                    <li class="lai"></li>
+                    <li class="mi"></li>
+                    <li class="fa"></li>
+                    <li class="sou"></li>
+                    <li class="la"></li>
+                    <li class="xi"></li>
+                </ul>
+                <div class="bottom_line"></div>
+                <span>蜀ICP备16002451号</span>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    //创建和初始化地图函数：
+    function initMap(){
+        createMap();//创建地图
+        setMapEvent();//设置地图事件
+        addMapControl();//向地图添加控件
+        addMarker();//向地图中添加marker
+    }
+
+    //创建地图函数：
+    function createMap(){
+        var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+        var point = new BMap.Point(116.356465,40.094647);//定义一个中心点坐标
+        map.centerAndZoom(point,17);//设定地图的中心点和坐标并将地图显示在地图容器中
+        window.map = map;//将map变量存储在全局
+    }
+
+    //地图事件设置函数：
+    function setMapEvent(){
+        map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+        map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+        map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+        map.enableKeyboard();//启用键盘上下左右键移动地图
+    }
+
+    //地图控件添加函数：
+    function addMapControl(){
+        //向地图中添加缩放控件
+        var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+        map.addControl(ctrl_nav);
+        //向地图中添加缩略图控件
+        var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT,isOpen:0});
+        map.addControl(ctrl_ove);
+        //向地图中添加比例尺控件
+        var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+        map.addControl(ctrl_sca);
+    }
+
+    //标注点数组
+    var markerArr = [{title:"翡翠科技",content:"我的备注",point:"116.355908|40.094702",isOpen:0,icon:{w:23,h:25,l:46,t:21,x:9,lb:12}}
+    ];
+    //创建marker
+    function addMarker(){
+        for(var i=0;i<markerArr.length;i++){
+            var json = markerArr[i];
+            var p0 = json.point.split("|")[0];
+            var p1 = json.point.split("|")[1];
+            var point = new BMap.Point(p0,p1);
+            var iconImg = createIcon(json.icon);
+            var marker = new BMap.Marker(point,{icon:iconImg});
+            var iw = createInfoWindow(i);
+            var label = new BMap.Label(json.title,{"offset":new BMap.Size(json.icon.lb-json.icon.x+10,-20)});
+            marker.setLabel(label);
+            map.addOverlay(marker);
+            label.setStyle({
+                borderColor:"#808080",
+                color:"#333",
+                cursor:"pointer"
+            });
+
+            (function(){
+                var index = i;
+                var _iw = createInfoWindow(i);
+                var _marker = marker;
+                _marker.addEventListener("click",function(){
+                    this.openInfoWindow(_iw);
+                });
+                _iw.addEventListener("open",function(){
+                    _marker.getLabel().hide();
+                })
+                _iw.addEventListener("close",function(){
+                    _marker.getLabel().show();
+                })
+                label.addEventListener("click",function(){
+                    _marker.openInfoWindow(_iw);
+                })
+                if(!!json.isOpen){
+                    label.hide();
+                    _marker.openInfoWindow(_iw);
+                }
+            })()
+        }
+    }
+    //创建InfoWindow
+    function createInfoWindow(i){
+        var json = markerArr[i];
+        var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>"+json.content+"</div>");
+        return iw;
+    }
+    //创建一个Icon
+    function createIcon(json){
+        var icon = new BMap.Icon("http://map.baidu.com/image/us_cursor.gif", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})
+        return icon;
+    }
+
+    initMap();//创建和初始化地图
+</script>
+</html>

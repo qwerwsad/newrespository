@@ -1,0 +1,114 @@
+.full{
+	min-width: 1100px;
+}
+.header_box{
+	/*width: 100%;*/
+	min-width: 1100px;
+	height: 120px;
+
+	background-size: 120% 100%;
+}
+.header{
+	width: 100%;
+	background: url("../img/header_bg.jpg") no-repeat;
+	height: 120px;
+	margin: 0 auto;
+	color: white;
+}
+.header>div{
+	float: left;
+}
+.logo_header{
+	font: 500 30px/120px "楷体";
+	width: 376px;
+	height: 120px;
+	cursor: pointer;
+}
+.icon_logo{
+	display: inline-block;
+	width: 376px;
+	height: 120px;
+	background-image: url("../img/logo.png")
+}
+.menu_header{
+	margin-left: 105px;
+
+}
+.menu_header>div{
+	float: left;;
+	margin-left: 20px;
+	position: relative;
+	cursor: pointer;
+}
+b{
+	display: block;
+	width: 4px;
+	height: 4px;
+	position: absolute;
+	bottom: 40px;
+	left: 50%;
+	margin-left: -2px;
+}
+.dottedActive{
+	background:url("../img/nav_now_bg.png") no-repeat;
+}
+.menu_header>div:hover>b{
+	background:url("../img/nav_now_bg.png") no-repeat;
+}
+.menu_header>div:nth-child(1){
+	margin-left: 0;
+}
+/*.menu_header:nth-last-child::after{*/
+	/*content: inherit;*/
+	/*clear: both;*/
+/*}*/
+.menu_header h1{
+	line-height: 120px;
+	font-size: 18px;
+}
+.menu_header i{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background: url("../img/nav_xiajiantou.png") no-repeat;
+	vertical-align: middle;
+}
+.menu_header ul{
+	width: 180px;
+	padding-bottom:10px;
+	position: absolute;
+	left: -30px;
+	text-align: left;
+	display: none;
+	background-color: #36264a;
+	z-index: 999;
+}
+.menu_header li{
+	font-size: 14px;
+	line-height: 35px;
+	padding-left: 30px;
+	color: #ffffff;
+	position: relative;
+	background-color: #36264a;
+	transition:padding-left 0.5s;
+	cursor: pointer;
+}
+.menu_header li:hover {
+	background-color: #2de2ff;
+	padding-left: 45px;
+}
+.menu_header>div:hover i{
+	background-image: url("../img/nav_xiajiantou_hover.png");
+}
+
+.active{
+	display: inline-block;
+	width: 5px;
+	height: 8px;
+	position: absolute;
+	margin-right: 30px;
+	top: 50%;
+	margin-top: -4px;
+	right: 0;
+	background:url("../img/nav_li_bg.png") no-repeat;
+}

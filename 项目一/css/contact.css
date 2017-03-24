@@ -1,0 +1,112 @@
+.contact_wrap{
+	width: 100%;
+	background-color: #f1f2f6;
+}
+.contact{
+	width: 1100px;
+	margin: 0 auto;
+}
+.contact_content{
+	width: 1100px;
+	height: 285px;
+	position: relative;
+}
+.contact_content li{
+	width: 347px;
+	height: 45px;
+	margin-right: 25px;
+	float: left;
+}
+.contact_content ul{
+	height: 45px;
+}
+.contact_content li:last-child{
+	margin-right: 0;
+}
+.contact_content i{
+	display:block;
+	float: left;
+	width: 19px;
+	height: 19px;
+	border: 13px solid #e7e8ec;
+	background-color: #e7e8ec;
+	background-image: url("../img/lianxi_icons.png");
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+ .p-email i{
+	background-position: -43px center;
+}
+ .p-phone i{
+	 background-position: -93px center;
+ }
+.contact_content input{
+	width: 300px;
+	height: 43px;
+	line-height: 40px;
+	font-size: 20px;
+	padding: 0;
+	display: block;
+	float: left;
+	border: 1px solid #e7e8ec;
+}
+.liuyan_wrap{
+	width: 717px;
+	height: 215px;
+	border: 1px solid #dedfe3;
+	margin-top: 25px;
+}
+.liuyan_wrap i{
+	border-bottom: 183px solid #e7e8ec;
+	background-position: -143px center;
+}
+.liuyan_wrap textarea{
+	width:672px;
+	height: 215px;
+	resize: none;
+	font-size: 20px;
+	border: #e7e8ec;
+}
+.contact_content p{
+	width: 330px;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	line-height: 15px;
+	color: #6b6a6f;
+	position: absolute;
+	right: 5px;
+}
+.contact_content p span{
+	color: red;
+	line-height: 15px;
+	vertical-align: middle;
+}
+.contact_content .text1{
+	bottom: 200px;
+}
+.contact_content .text2{
+	bottom: 100px;
+}
+.send{
+	width: 330px;
+	height: 50px;
+	background-color: #168bcb;
+	cursor: pointer;
+	position: absolute;
+	bottom: 0;
+	right: 5px;
+}
+.send i{
+
+	background-color: #2999d6;
+	border: 15.5px solid #2999d6;
+	background-position: 0 center;
+}
+.send span{
+	display: block;
+	width: 280px;
+	height: 50px;
+	text-align: center;
+	color: #ffffff;
+	font:400 18px/50px "微软雅黑" ;
+}

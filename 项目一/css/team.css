@@ -1,0 +1,224 @@
+.clear {
+	clear: both;
+}
+.team_wrap{
+	width: 100%;
+	background: #f1f2f6;
+	padding-top: 50px;
+}
+.team_body{
+	width: 1100px;
+	height:929px;
+	margin: 0 auto;
+	position: relative;
+}
+.team_body h2{
+	width: 1100px;
+	height: 32px;
+	background: url("../img/map_topimg.png") no-repeat center;
+	margin: 12px auto;
+
+}
+.people_jianjie{
+	float: left;
+	margin-left: 25px;
+}
+ .team_content{
+	width: 525px;
+	 height: 255px;
+	margin: 0 auto;
+	float: left;
+
+}
+.team_content:nth-child(2){
+	margin-left: 50px;
+}
+.team_content .team_left{
+	position: relative;
+	width: 525px;
+	height: 254px;
+	border-bottom: 1px solid #e0e1e5 ;
+}
+.teamer1{
+	width: 156px;
+	height: 156px;
+	background: url("../img/team_img01.png") no-repeat center;
+	position: relative;
+	cursor: pointer;
+}
+.people_jianjie p{
+	text-align: center;
+	color: #311759;
+	font-size: 20px;
+	font-family: "宋体";
+	line-height: 25px;
+}
+.people_jianjie .people_jianjie_p2{
+	font-size: 14px;
+	color: #311759;
+}
+.add_people{
+	width: 156px;
+	height: 156px;
+	position: absolute;
+	background: url("../img/team_amore.png");
+	display: none;
+	cursor: pointer;
+}
+.team_left div:hover>.add_people {
+	display: block;
+}
+.team_left>p{
+	margin-left: 35px;
+	text-align: center;
+	line-height: 156px;
+}
+.lianxifangshi{
+	width: 21px;
+	height:160px;
+	float: left;
+	margin-left: 110px;
+}
+.xiangxi{
+	float: left;
+}
+.team_left strong{
+	display: block;
+	width: 45px;
+	height: 40px;
+	background-color:#2999d6 ;
+	background-image: url("../img/team_contact.png");
+	background-repeat: no-repeat;
+}
+.lianxi_icon1{
+	background-position: center -35px;
+}
+.lianxi_icon2{
+	background-position: center -80px;
+}
+.lianxi_icon3{
+	background-position: center -130px;
+}
+.lianxi_icon4{
+	background-position: center -170px;
+}
+.team_left .lianxifangshi strong:hover{
+	background-color: #311759;
+}
+.email strong{
+	height: 45px;
+}
+.email{
+	width: 245px;
+	height: 45px;
+	border: 1px;
+	background: #e7e8ec;
+	position:absolute ;
+	top: 155px;
+	left: 200px;
+}
+.email:hover{
+	border: 1px solid #311759;
+}
+.email span{
+	display: block;
+	float: left;
+	width: 200px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 16px;
+	text-align: center;
+}
+.email_icon{
+	background-position: 50% 15px;
+	width: 45px;
+	height: 45px;
+	float: left;
+	background-color: #d9d9e1;
+}
+.team_neirong{
+	width: 1100px;
+	height: 255px;
+	position: relative;
+	overflow: hidden;
+}
+.team_neirong ul{
+	width: 8400px;
+	position: absolute;
+	left: 0;
+}
+.team_neirong .lunbo li{
+	float: left;
+	margin-right: 300px; ;
+}
+.team_body .team_btnList li:nth-child(4){
+	width: 50px;
+}
+
+.team_btnList{
+	text-align: center;
+	position: absolute;
+	bottom: 70px ;
+	left: 50%;
+	margin-left: -100px;
+	z-index:999;
+}
+
+.team_btnList li{
+	float: left;
+	vertical-align: middle;
+}
+.team_btnList li:nth-child(1){
+	width: 29px;
+	height: 29px;
+	background: url("../img/prev_jiantou.png") center;
+}
+.team_btnList li:nth-child(1):hover{
+	background: url("../img/prev_jiantou_hover.png") center;
+}
+.team_btnList li:nth-child(2){
+	width: 50px;
+	height: 29px;
+	background: url("../img/next&prev_line.png") no-repeat center;
+}
+.team_btnList li:nth-child(3){
+	width: 6px;
+	height: 29px;
+	background: url("../img/next&prev_mbg01.png") no-repeat center;
+}
+.team_btnList li:nth-child(4){
+	width: 30px;
+	height: 29px;
+	background: url("../img/next&prev_mbg02.png") repeat-x center;
+}
+.team_btnList li:nth-child(5){
+	width: 6px;
+	height:29px;
+	background: url("../img/next&prev_mbg03.png" ) no-repeat center;
+}
+.team_btnList li:nth-child(6){
+	width: 50px;
+	height: 29px;
+	background: url("../img/next&prev_line.png") no-repeat center;
+}
+.team_btnList li:nth-child(7){
+	width: 29px;
+	height: 29px;
+	background: url("../img/next_jiantou.png") no-repeat center;
+}
+.team_btnList li:nth-child(7):hover{
+	background: url("../img/next_jiantou_hover.png") no-repeat center;
+}
+.team_rotation em{
+	display: block;
+	float: left;
+	position: relative;
+	width:6px;
+	height: 29px;
+	padding-right: 4px;
+	cursor: pointer;
+	background: url("../img/next&prev_others.png") no-repeat center;
+}
+.team_rotation .team_blue_dotted{
+	background: url("../img/next&prev_now.png") no-repeat center;
+}

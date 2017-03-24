@@ -1,0 +1,156 @@
+.partner_wrap{
+	width: 100%;
+	background: #ffffff;
+}
+.partner h2{
+	width: 1100px;
+	height: 32px;
+	background: url("../img/hezuo_topbg.png") no-repeat center;
+}
+.partner{
+	width: 1100px;
+	margin: 0 auto;
+}
+.partner_content h3{
+	font-size: 30px;
+	line-height: 35px;
+	font-weight: 600;
+	color: #5f4c82;
+}
+.partner_content h4{
+	font-size: 14px;
+	line-height: 19px;
+	color: #5f4c82;
+	font-weight: 600;
+}
+.partners{
+	width: 549px;
+	border-right: 1px solid #dbdbdb;
+	float: left;
+}
+.users{
+	width: 475px;
+	margin-left: 75px;
+	float: left;
+
+}
+.partners_nav ul{
+	width: 549px;
+	height: 230px;
+	margin-top: 70px;
+	position: relative;
+}
+.partners_nav li{
+	position: absolute;
+}
+.PL1{
+	width: 89px;
+	height: 78px;
+	left: 20px;
+	top:0;
+	background: url("../img/pLogo01.png") no-repeat center;
+	float: left;
+}
+.PL2 {
+	width: 85px;
+	height: 74px;
+	left: 190px;
+	top:0;
+	background: url("../img/pLogo02.png") no-repeat center;
+	float: left;
+}
+.PL3{
+	width: 127px;
+	height: 67px;
+	left: 360px;
+	top:0;
+	background: url("../img/pLogo03.png") no-repeat center;
+	float: left;
+}
+.PL4{
+	width: 81px;
+	height: 82px;
+	left: 20px;
+	top: 150px;
+	background: url("../img/pLogo04.png") no-repeat center;
+	float: left;
+}
+.PL5{
+	width: 129px;
+	height: 62px;
+	left: 190px;
+	top: 150px;
+	background: url("../img/pLogo05.png") no-repeat center;
+	float: left;
+}
+.PL6{
+	width: 85px;
+	height: 71px;
+	left: 360px;
+	top: 150px;
+	background: url("../img/pLogo06.png") no-repeat center;
+	float: left;
+}
+
+.users_nav ul{
+	width: 475px;
+	height: 230px;
+	margin-top: 70px;
+	position: relative;
+}
+.users_nav li{
+	position: absolute;
+}
+.UL1{
+	width: 94px;
+	height: 92px;
+	left: 20px;
+	top:0;
+	background: url("../img/uLogo01.png") no-repeat center;
+	float: left;
+}
+.UL2 {
+	width: 96px;
+	height: 69px;
+	left: 190px;
+	top:0;
+	background: url("../img/uLogo02.png") no-repeat center;
+	float: left;
+}
+.UL3{
+	width: 80px;
+	height: 68px;
+	left: 360px;
+	top:0;
+	background: url("../img/uLogo03.png") no-repeat center;
+	float: left;
+}
+.UL4{
+	width: 97px;
+	height: 61px;
+	left: 20px;
+	top: 150px;
+	background: url("../img/uLogo04.png") no-repeat center;
+	float: left;
+}
+.UL5{
+	width: 84px;
+	height: 63px;
+	left: 190px;
+	top: 150px;
+	background: url("../img/uLogo05.png") no-repeat center;
+	float: left;
+}
+.UL6{
+	width: 105px;
+	height: 73px;
+	left: 360px;
+	top: 150px;
+	background: url("../img/uLogo06.png") no-repeat center;
+	float: left;
+}
+.partner h6{
+	width: 1100px;
+	height: 35px;
+	background: url("../img/hezuo_bottombg.png") no-repeat center;
+}

@@ -1,0 +1,460 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.clear{
+	clear: both;
+}
+.full{
+	width: 100%;
+	max-width: 1131px;
+	margin: 0 auto;
+}
+
+body::-webkit-scrollbar {
+	width: 0;
+}
+.header{
+	width: 100%;
+	background-color: red;
+	height: 50px;
+	background-image:url("../img/aboutxiaoniao/beader_bg.jpg") ;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto;
+}
+.main_wrap{
+	position: relative;
+	overflow: hidden;
+}
+.main2{
+	width: 100%;
+	/*overflow: hidden;*/
+}
+.wrap{
+	width: 100%;
+	position: absolute;
+	top: 0;
+}
+.main{
+	width: 100%;
+}
+.header_logo{
+	width: 132px;
+	height: 50px;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+.header_logo i{
+	width: 132px;
+	height: 50px;
+	display: block;
+	background: url("../img/aboutxiaoniao/logo.png") no-repeat center;
+
+}
+.header_logo,.header_nav{
+	float: left;
+}
+.header_nav ul li{
+	float: left;
+	line-height: 50px;
+	font-size: 16px;
+	color: #aeabb4;
+	font-family: "Microsoft YaHei UI";
+	margin-left: 30px;
+	position: relative;
+	cursor: pointer;
+}
+.header_nav ul li b{
+	display: block;
+	width: 4px;
+	height: 4px;
+	position: absolute;
+	left: 50%;
+	margin-left: -2px;
+	bottom: 7px;
+}
+.fontColor b{
+	background: url("../img/nav_now_bg.png") no-repeat center;
+}
+.header_nav li:hover>b{
+	background: url("../img/nav_now_bg.png") no-repeat center;
+}
+.header_nav li:hover{
+	color: white;
+}
+.header_nav ul .fontColor{
+	color: white;
+}
+ .main1{
+	background-color: #221236;
+}
+ .xuanfu{
+	 width: 100%;
+	 background-color:#299ad6 ;
+	 position: fixed;
+	 z-index: 999;
+ }
+.bird{
+	width: 300px;
+	height: 335px;
+	background: url("../img/aboutxiaoniao/xiaoniao_welcome_icon3.gif") no-repeat center;
+	margin: 0 auto;
+}
+.bird_float{
+	width: 300px;
+	height: 335px;
+	background: url("../img/aboutxiaoniao/xiaoniao_welcome_icon2.gif") no-repeat center;
+	margin: 0 auto;
+}
+.xuanfu .bird_school{
+	width: 550px;
+	margin: 0 auto;
+}
+.bird_school p{
+	color: #ffffff;
+	font-family: 宋体;
+	text-align: center;
+}
+.bird1{
+	font-size: 40px;
+	line-height: 45px;
+}
+.bird2{
+	font-size: 16px;
+	line-height: 20px;
+
+	font-weight: 100;
+}
+.bird3{
+	font-size: 40px;
+	position: relative;
+	line-height: 80px;
+}
+.bird3 i{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-repeat:no-repeat ;
+	position: absolute;
+}
+.bird3 i:nth-child(1){
+	background-image: url("../img/aboutxiaoniao/yinhao1_zuo.png");
+	vertical-align: top;
+	top: 5px;
+	left:65px;
+
+}
+.bird3 i:nth-child(2){
+	background-image: url("../img/aboutxiaoniao/yinhao1_you.png");
+	vertical-align: bottom;
+	bottom: 5px;
+	right: 65px;
+}
+.bird4,.bird5{
+	font-size: 18px;
+	line-height: 20px;
+}
+.more{
+	width: 58px;
+	height: 58px;
+	background: url("../img/lis_more_btn_bg.png") 0 -58px;
+	margin: 25px auto;
+	cursor: pointer;
+}
+.more:hover{
+	background-position: 0 0;
+}
+.main2_wrap>div{
+	width: 100%;
+	float: left;
+	margin: 0 auto;
+}
+.main2{
+	font-family: 宋体;
+	width: 100%;
+	position: relative;
+}
+.main2 b{
+	width: 58px;
+	height: 58px;
+	display: inline-block;
+	position: absolute;
+	top:50%;
+	z-index: 999;
+	margin-top: -29px;
+}
+.main2 .prev{
+	background: url("../img/aboutxiaoniao/goleft.png")no-repeat 0,0;
+	left: 0;
+}
+.main2 .next{
+	background: url("../img/aboutxiaoniao/goright.png") no-repeat -58px,0;
+	left: 100%;
+	margin-left: -58px;
+}
+.main2 .prev:hover{
+	background-position: -58px,0;
+}
+.main2 .next:hover{
+	background-position: 0,0;
+}
+
+.main2_one i{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-repeat:no-repeat ;
+	position: absolute;
+}
+.main2_one div{
+	width: 630px;
+	margin: 0 auto;
+}
+.main2_one p{
+	width:630px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 25px;
+}
+.main2_one div p:nth-child(2){
+	font-size: 40px;
+	line-height: 50px;
+	color: #241438;
+}
+.main2_one ul{
+	width: 944px;
+	margin: 45px auto;
+}
+.main2_one ul li{
+	width: 191px;
+	height: 379px;
+	float: left;
+	margin-right: 60px;
+}
+.main2_one ul li:last-child{
+	margin-right: 0;
+}
+.main2_wrap{
+	position: absolute;
+	left: 0;
+}
+.main2_two_top{
+	width: 502px;
+	height: 38px;
+	margin: 30px auto;
+	background: url("../img/aboutxiaoniao/bird_title.png") no-repeat center;
+}
+.main2_two_content{
+	width: 600px;
+	margin: 0 auto;
+}
+.main2_two_content i{
+	width: 98px;
+	height: 99px;
+	display:inline-block;
+	background: center;
+	vertical-align: middle;
+}
+.main2_two_content li{
+	height: 100px;
+}
+.main2_two_content .light{
+	background-image:url("../img/aboutxiaoniao/yuanjin_icon.png") ;
+}
+.main2_two_content .book{
+	background-image:  url("../img/aboutxiaoniao/book_icon.png");
+}
+.main2_two_content .house{
+	background-image: url("../img/aboutxiaoniao/school_icon.png");
+}
+.main2_two_content ul li span{
+	display: inline-block;
+
+	font-size: 25px;
+}
+.main2_two_content ul p{
+	display: inline-block;
+	font-size: 18px;
+}
+.main4 .content_one{
+	font-family: 宋体;
+	width: 100%;
+	float: left;
+}
+.content_one h1{
+	text-align: center;
+	margin: 30px auto;
+	font-size: 40px;
+	line-height: 55px;
+	color: #311759;
+
+}
+.content_wrap{
+	position: absolute;
+	left: 0px;
+}
+.main3{
+	font-family: 宋体;
+	background: #221236;
+	color: white;
+}
+.main3_content i,.main3_content i{
+	display:block;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+}
+.LT{
+	background: url("../img/aboutxiaoniao/jiazhi_border_11.png") center;
+}
+.LTb{
+	background: url("../img/aboutxiaoniao/jiazhi_border_12.png") center;
+}
+.RT{
+	background: url("../img/aboutxiaoniao/jiazhi_border_21.png") center;
+}
+.RTb{
+	background: url("../img/aboutxiaoniao/jiazhi_border_22.png") center;
+}
+.LB{
+	background: url("../img/aboutxiaoniao/jiazhi_border_31.png") center;
+}
+.LBb{
+	background: url("../img/aboutxiaoniao/jiazhi_border_32.png") center;
+}
+.RB{
+	background: url("../img/aboutxiaoniao/jiazhi_border_41.png") center;
+}
+.RBb{
+	background: url("../img/aboutxiaoniao/jiazhi_border_42.png") center;
+}
+.LT,.LTb{
+	left: 0;
+	top: 0;
+}
+.RT,.RTb{
+	right: 0;
+	top: 0;
+}
+.LB,.LBb{
+	left: 0;
+	bottom: 0;
+}
+.RB,.RBb{
+	right: 0;
+	bottom: 0;
+}
+.main3 h1{
+	font-size: 30px;
+	color: #ffffff;
+	width: 350px;
+	text-align: center;
+	margin:  0 auto;
+	padding-top: 80px;
+}
+.main3_content{
+	width: 1000px;
+	height: 430px;
+	margin: 0 auto;
+	position: relative;
+}
+.main3_content div{
+	width: 400px;
+	position: absolute;
+}
+.circle_left{
+	left: 100px;
+}
+.circle_right{
+	right: 100px;
+
+}
+.circle_right1,.circle_left1{
+	top:50px;
+}
+.circle_right2,.circle_left2{
+	top:174px;
+}
+.circle_right3,.circle_left3{
+	top:298px;
+}
+.main3_content span{
+	display:block;
+	width: 74px;
+	height: 74px;
+	background: url("../img/aboutxiaoniao/jiazhi_quanquan.png") no-repeat center;
+	color: #ffffff;
+	line-height: 74px;
+	text-align: center;
+	cursor: pointer;
+	float: left;
+	vertical-align:baseline;
+
+}
+.main3_content p{
+	width: 270px;
+	height: 74px;
+	margin-left: 30px ;
+	margin-top: 9px;
+	font-size: 16px;line-height: 24px;
+	float: left;
+}
+.main4 .content_one .main4_content{
+	width: 750px;
+	height: 396px;
+	margin: 0 auto;
+	line-height: 36px;
+	background: url("../img/aboutxiaoniao/xuxian_bg.png") repeat center;
+}
+.main4 b{
+	 width: 78px;
+	 height: 8px;
+	display: block;
+	background-image: url("../img/aboutxiaoniao/xiaoniaoyun_btn.png")  ;
+	background-repeat:no-repeat ;
+	position: relative;
+	overflow: hidden;
+ }
+.qiehuan_button{
+	width: 100%;
+	height: 8px;
+	position: absolute;
+	left: 50%;
+	bottom: 80px;
+	margin-left: -88px;
+
+}
+.slide_left1{
+	margin-right: 20px;
+	background-position:0 -8px ;
+	float: left;
+	cursor: pointer;
+}
+.main4 .slide_left1 .slide_left2{
+	background-position:0 0 ;
+	position: absolute;
+	top: 0;
+	left: 0px;
+}
+.slide_right1{
+	float: left;
+	/*margin-left: 10px;*/
+	background-position: 0 -8px;
+	cursor: pointer;
+}
+.main4 .slide_right1 .slide_right2{
+	background-position:0 0 ;
+	position: absolute;
+	top: 0;
+	left:-78px;
+}
+.main4 {
+	width: 100%;
+	position: relative;
+}
+.main5{
+	width: 100%;
+	background: url("../img/aboutxiaoniao/app&contacts.jpg") no-repeat center ;
+	background-size: auto;
+}

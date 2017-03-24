@@ -1,0 +1,83 @@
+.address_wrap{
+	width: 100%;
+}
+.address{
+	width: 1100px;
+	margin: 0 auto;
+	background-color: #f1f2f6;
+}
+.address>div ul{
+	padding-top:95px;
+}
+.address>div li{
+	width: 345px;
+	height: 150px;
+	margin-right: 32px;
+	float: left;
+	position: relative;
+}
+.address>div i{
+	width: 101px;
+	height: 101px;
+	display: block;
+	float: left;
+}
+.ad i{
+	background: url("../img/lianxi_icon01.png") no-repeat center;
+}
+.telephone i{
+	background: url("../img/lianxi_icon02.png") no-repeat center;
+}
+.internet i{
+	background: url("../img/lianxi_icon03.png") no-repeat center;
+}
+.address li div{
+	width: 210px;
+	height: 150px;
+	margin-left: 34px;
+	float: left;
+}
+.address h1{
+	color: #36264a;
+	font: 700 30px/30px "宋体";
+}
+.address h4{
+	width: 210px;
+	height: 30px;
+	background: url("../img/lianxi_kuaier_bg.png") no-repeat center;
+}
+.address li span{
+	display: block;
+	height: 25px;
+	font: 400 14px/25px "微软雅黑";
+	color: #6b6a6f;
+}
+.map{
+	width: 100%;
+	background: #ffffff;
+	position: relative;
+}
+.map h2{
+	width: 1100px;
+	height: 32px;
+	position: absolute;
+	background: url("../img/map_topimg.png") no-repeat center;
+	left: 50%;
+	margin-left: -550px;
+	z-index: 10;
+}
+
+.map h5{
+	width: 1100px;
+	height: 32px;
+	left: 50%;
+	bottom: 0;
+	margin-left: -550px;
+	position: absolute;
+	background: url("../img/map_bottomimg.png") no-repeat center;
+	z-index: 10;
+}
+/*<!--引用百度地图API-->*/
+html,body{margin:0;padding:0;}
+.iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+.iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}

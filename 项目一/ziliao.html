@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <style>
+        .clear{
+            clear: both;
+        }
+        .full{
+            width: 100%;
+            min-width:1100px;
+        }
+        .wrap{
+            width: 100%;
+            margin: 0 auto;
+            background: #f1f2f6;
+        }
+        .header{
+            width: 100%;
+            height: 120px;
+            background-color: #332347;
+            margin: 0 auto;
+        }
+        .main_title{
+            width: 100%;
+            height: 110px;
+            text-align: center;
+            padding-top: 120px;
+            font-family: "宋体";
+            color: #332347;
+            margin: 0 auto;
+        }
+        .main_title p:nth-child(1){
+            font-size: 50px;
+        }
+        .main_title p:nth-child(2){
+            font-size: 20px;
+            line-height: 36px;
+            font-family: "Microsoft YaHei UI";
+        }
+        .title_icon{
+            width: 42px;
+            height: 6px;
+            margin: 0 auto;
+        }
+        .main_title i{
+            display: block;
+            float: left;
+            margin-right: 12px;
+            width: 6px;
+            height: 6px;
+            background: url("img/next&prev_now.png") no-repeat center;
+        }
+        .main_title i:last-child{
+            margin-right: 0;
+        }
+        .nav h1{
+            width: 1100px;
+            margin: 0 auto;
+            font: 700  26px/80px  "宋体";
+            color: #332347;
+        }
+        .nav_pic{
+            width: 1100px;
+            height: 58px;
+            margin: 0 auto;
+        }
+        .nav_pic h2{
+            width: 1039px;
+            height: 56px;
+            background: url("img/pen_line_long.png") repeat-x -10px 52px;
+            float: left;
+        }
+        .nav_pic h3{
+            width: 61px;
+            height: 58px;
+            background: url("img/pen_list.png") no-repeat 0 0;
+            float: left;
+            cursor: pointer;
+        }
+        .nav_pic h3:hover{
+            background-position: -61px 0;
+        }
+        .content{
+            width: 1100px;
+            background: #f1f2f6;
+            margin: 20px auto;
+
+        }
+        .content>div{
+            width: 534px;
+            height: 240px;
+            background: #ffffff;
+            float: left;
+            margin-right: 20px;
+            margin-top: 30px;
+            border: 1px solid #ffffff;
+            cursor: pointer;
+        }
+        .content>div:hover{
+            border:1px solid #6b6a6f;
+        }
+
+        .content>div .picture{
+            width: 260px;
+            height: 168px;
+            display: inline-block;
+
+            margin-left: 20px;
+            margin-top: 35px;
+            margin-right: 15px;
+        }
+        .txt{
+            display: inline-block;
+            line-height: 31px;
+            color: #6b6a6f;
+            width: 220px;
+            margin-top: 35px;
+        }
+        .txt p{
+            font-size: 16px;
+        }
+        .txt h5 span{
+            font-size: 18px;
+            display: block;
+        }
+        .txt h5 b{
+            font-size: 12px;
+            display: block;
+        }
+        .icon1{
+            width: 107px;
+            height: 175px;
+            background: url("img/list_gomore_bg.jpg") no-repeat center;
+            margin: 50px auto 10px;
+        }
+        .icon2{
+            width: 58px;
+            height: 58px;
+            background: url("img/lis_more_btn_bg.png") no-repeat 0 -58px;
+            margin: 0 auto;
+        }
+        .icon2:hover{
+            background-position: 0 0;
+        }
+        .bottom{
+            width: 100%;
+            height: 30px;
+            background: url("img/mokuai02_bg.jpg") no-repeat center 0;
+            -webkit-background-size: auto;
+            -moz-background-size: auto;
+            background-size: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="full">
+        <div class="wrap">
+            <div class="header"></div>
+            <div class="main_title">
+                <p>小鸟动态</p>
+                <p>A b o u t&nbsp;&nbsp;C o m p a n y</p>
+                <div class="title_icon">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </div>
+            </div>
+            <div class="nav">
+                <h1>列表</h1>
+                <div class="nav_pic">
+                    <h2></h2>
+                    <h3></h3>
+                </div>
+            </div>
+            <div class="content">
+                <div class="content_one">
+                    <div class="picture"><img src="img/list_img01.jpg" alt=""></div>
+                    <div class="txt">
+                        <h5>
+                            <span>胜林三境重装出发</span>
+                            <b>2016-02-06 15:06:35</b>
+                        </h5>
+                        <p>
+                            小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线教育平台。
+                        </p>
+                    </div>
+                </div>
+                <div  class="content_one" style="margin-right: 0">
+                    <div class="picture"><img src="img/list_img02.jpg" alt=""></div>
+                    <div class="txt">
+                    <h5>
+                        <span>胜林三境重装出发</span>
+                        <b>2016-02-06 15:06:35</b>
+                    </h5>
+                    <p>
+                        小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线教育平台。
+                    </p>
+                </div>
+                </div>
+                <div  class="content_one">
+                    <div class="picture"><img src="img/list_img03.jpg" alt=""></div>
+                    <div class="txt">
+                        <h5>
+                            <span>胜林三境重装出发</span>
+                            <b>2016-02-06 15:06:35</b>
+                        </h5>
+                        <p>
+                            小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线教育平台。
+                        </p>
+                    </div>
+                </div>
+                <div class="content_one" style="margin-right: 0" >
+                    <div class="picture"><img src="img/list_img04.jpg" alt=""></div>
+                    <div class="txt">
+                        <h5>
+                            <span>胜林三境重装出发</span>
+                            <b>2016-02-06 15:06:35</b>
+                        </h5>
+                        <p>
+                            小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线教育平台。
+                        </p>
+                    </div>
+                </div>
+                <div  class="content_one">
+                    <div class="picture"><img src="img/list_img04.jpg" alt=""></div>
+                    <div class="txt">
+                        <h5>
+                            <span>胜林三境重装出发</span>
+                            <b>2016-02-06 15:06:35</b>
+                        </h5>
+                        <p>
+                            小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线教育平台。
+                        </p>
+                    </div>
+                </div>
+                <div  class="content_one" style="margin-right: 0">
+                    <div class="picture"><img src="img/list_img03.jpg" alt=""></div>
+                    <div class="txt">
+                        <h5>
+                            <span>胜林三境重装出发</span>
+                            <b>2016-02-06 15:06:35</b>
+                        </h5>
+                        <p>
+                            小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线教育平台。
+                        </p>
+                    </div>
+                </div>
+                <h6 class="clear"></h6>
+            </div>
+            <div class="icon1">
+
+            </div>
+            <div class="icon2">
+
+            </div>
+            <div class="bottom">
+                
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script>
+    $(function(){
+        $(".nav_pic h3").click(function(){
+            $(".nav_pic h2").animate({width:0},0,function(){
+                $(".nav_pic h2").animate({width:1039},600)
+            })
+        })
+//        function qingqiu(){
+//            var xhr = new XMLHttpRequest();
+//            xhr.open("get","js/listData.json")
+//            xhr.send("null")
+//            xhr.onreadystatechange = function(){
+//                if (xhr.readyState == 4){
+//                    if (xhr.state == 200){
+//                        var bb =
+//                    }
+//                }
+//            }
+//        }
+
+    })
+
+//    模板
+</script>
+</html>

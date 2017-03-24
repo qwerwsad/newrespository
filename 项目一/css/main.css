@@ -1,0 +1,224 @@
+.main_wrap{
+	width: 100%;
+	background-color: #f1f2f6;
+}
+.main_Product{
+	width: 1100px;
+	margin: 0 auto;
+}
+.goOn{
+	width: 58px;
+	height: 58px;
+	background: url("../img/goOn_icon01.png") no-repeat;
+	margin: 40px auto 0;
+}
+.big_txt{
+	text-align: center;
+	padding-top: 60px;
+	font: 700 50px/50px "宋体";
+	color: #311759;
+}
+.small_txt{
+	text-align: center;
+	padding-top: 10px;
+	font: 500 16px/16px "微软雅黑";
+	color: #311759;
+}
+.three_points{
+	width: 37px;
+	height: 8px;
+	background: url("../img/three_points01.png") no-repeat;
+	margin: 20px auto 70px;
+}
+.main_content{
+	width: 1100px;
+	height: 436px;
+	margin: 0 auto;
+}
+.content_list{
+	width: 22px;
+	height: 386px;
+	margin-top: 25px;
+	background-image: url("../img/jiejian_now_line.png");
+	float: left;
+}
+.mover{
+	width: 22px;
+	height: 386px;
+	position: absolute;
+}
+.mover em{
+	display: block;
+	background-color: #f1f2f6;
+	margin-bottom: 54px;
+}
+.small{
+	width: 22px;
+	height: 12px;
+	border-top: 4px solid  #f1f2f6;
+	border-bottom:4px solid  #f1f2f6;
+	background-image: url("../img/chanpin_nowline_xiaoquan.png");
+	background-repeat: no-repeat;
+	background-position: 5px 0;
+}
+.big{
+	width: 22px;
+	height: 19px;
+	background-image: url("../img/chanpin_nowline_daquan.png");
+	background-repeat: no-repeat;
+	background-position: 1px 0;
+}
+.small:hover{
+	background-position: 5px -11px ;
+}
+.content_qiehuan li{
+	height: 436px;
+}
+.content_wrap{
+	width: 1020px;
+	height: 436px;
+	float: left;
+	margin-left:50px;
+	position: relative;
+	overflow: hidden;
+}
+.chanpin_image01{
+	width: 370px;
+	height: 436px;
+	float: left;
+
+}
+.chanpin_jieshao{
+	width: 620px;
+	height: 436px;
+	margin-left:30px ;
+	float: left;
+
+}
+.jieshao_title{
+	font: 700 35px/35px "宋体";
+	color: #311759;
+}
+.penLine{
+	height: 25px;
+	position: relative;
+}
+.pen_line{
+	width: 558px;
+	height: 25px;
+	display: block;
+	background-image: url("../img/pen_line.png");
+	background-repeat: no-repeat;
+	background-position: 0 23px;
+	float: left;
+}
+.pen1{
+	display: block;
+	width: 61px;
+	height: 54px;
+	position: absolute;
+	right: 10px;
+	bottom: -1px;
+	background-image: url("../img/pen.png");
+	float: left;
+}
+.zhuyao{
+	width: 610px;
+	height: 170px;
+	padding: 35px 0 40px 0;
+}
+.bird{
+	width: 96px;
+	height: 100px;
+	float: left;
+	margin-left: 10px;
+	background: url("../img/xiaoniao_icon.png") no-repeat center;
+}
+.zhuyao span{
+	display: block;
+	font: 500 22px/30px "微软雅黑";
+}
+.zhuyao>p{
+	width: 484px;
+	height:100px ;
+	font: 400 16px/20px "微软雅黑";
+	color: #6b6a6f;
+	float: left;
+	margin-left: 20px;
+}
+ .qiehuan{
+	position: absolute;
+	 left: 400px;
+	 top: 270px;
+	 z-index:999 ;
+}
+.qiehuan ul{
+	height: 29px;
+}
+.qiehuan li{
+	float: left;
+}
+.left{
+	width: 29px;
+	height: 29px;
+	background: url("../img/prev_jiantou.png");
+	cursor: pointer;
+}
+.left:hover{
+	background: url("../img/prev_jiantou_hover.png");
+}
+.mDashed{
+	width: 562px;
+	height: 29px;
+	background: url("../img/next&prev_line.png") repeat-x center;
+}
+.right{
+	width: 29px;
+	height: 29px;
+	background: url("../img/next_jiantou.png");
+	cursor: pointer;
+}
+.right:hover{
+	background: url("../img/next_jiantou_hover.png");
+}
+.zongzhi{
+	font: 400 15px/20px "微软雅黑";
+	color: #6b6a6f;
+	margin-top: 10px;
+}
+.logo_xue{
+	width: 210px;
+	height: 50px;
+	margin-left: 410px;
+	margin-top: 10px;
+	font: 500 18px/50px "微软雅黑";
+}
+.logo_xue i{
+	width: 20px;
+	height: 50px;
+	display: block;
+	float: left;
+}
+.logo_xue span{
+	float: left;
+	color: #6b6a6f;
+}
+.zuoyin{
+	background: url("../img/yinhao_zuo.png") no-repeat 0 0;
+}
+.youyin{
+	background: url("../img/yinhao_you.png") no-repeat 0 33px;
+}
+
+.neirong1{
+	font: 400 15px/20px "微软雅黑";
+	color: #6b6a6f;
+	height: 170px;
+	padding: 35px 0 45px 0;
+}
+.neirong2{
+	margin-top: 29px;
+	font: 400 15px/20px "微软雅黑";
+	color: #6b6a6f;
+	height: 175px;
+}
